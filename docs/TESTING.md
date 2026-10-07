@@ -1,4 +1,4 @@
-# Release verification — 0.1.5
+﻿# Release verification — 0.1.5
 
 Date: 2026-10-07. Environment: tModLoader2026.08.3.0 / Terraria1.4.4.9 / .NET8; isolated Calamity2.2.2 + Music2.1. Optional BossChecklist2.2.4 checked by the loot/integration fixture.
 

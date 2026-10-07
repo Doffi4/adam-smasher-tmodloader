@@ -1,4 +1,4 @@
-<p align="center"><img src="docs/images/banner.png" alt="Adam Smasher boss and reward sprites" width="100%"></p>
+﻿<p align="center"><img src="docs/images/banner.png" alt="Adam Smasher boss and reward sprites" width="100%"></p>
 
 # Adam Smasher
 

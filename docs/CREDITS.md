@@ -1,4 +1,4 @@
-# Credits and asset provenance
+﻿# Credits and asset provenance
 
 - Project owner and design/testing feedback: doffi4.
 - Implementation and documentation: OpenAI Codex, GPT-6 agent family, with user-authorized subagents.

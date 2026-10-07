@@ -1,4 +1,4 @@
-# Build locally
+﻿# Build locally
 
 Use PowerShell 7.2+, .NET SDK 8 and your own tModLoader/Terraria installation. You also need installed Calamity Mod and Calamity Mod Music packages. No game libraries or dependencies are included in this repository.
 
