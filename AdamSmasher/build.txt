@@ -1,0 +1,7 @@
+displayName = Adam Smasher
+author = doffi4
+version = 0.1.5
+modReferences = CalamityMod
+weakReferences = BossChecklist
+side = Both
+buildIgnore = bin/*, obj/*, *.csproj

@@ -1,0 +1,4 @@
+PASS: phase1 rockets=9, bullets=54, dashes=6, maximum=15
+PASS: phase2 rockets=15, bullets=81, dashes=7, maximum=18
+PASS: two active server players rockets=9, bullets=54, dashes=6; matches one-player stream
+PASS: quiet phase transition preserves HP/defense; telegraph/contact gates; real projectile AI/lifetime/fixed strike/range; invalid target reacquisition; client no-spawn, server-only dash start and locked aim ExtraAI; death/retire cleanup; resummon and orphan safety

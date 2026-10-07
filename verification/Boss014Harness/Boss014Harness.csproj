@@ -1,0 +1,5 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup><TargetFramework>net8.0</TargetFramework><LangVersion>12.0</LangVersion><TmlInstall Condition="'$(TmlInstall)' == ''">$(TML_PATH)</TmlInstall></PropertyGroup>
+  <Import Project="$(TmlInstall)/tMLMod.targets" />
+  <ItemGroup><Reference Include="AdamSmasher"><HintPath>../../AdamSmasher/bin/Debug/net8.0/AdamSmasher.dll</HintPath><Private>false</Private></Reference></ItemGroup>
+</Project>

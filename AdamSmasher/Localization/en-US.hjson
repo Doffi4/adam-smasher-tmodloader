@@ -1,0 +1,64 @@
+Mods: {
+	AdamSmasher: {
+		Items: {
+			ArasakaBeacon: {
+				DisplayName: Arasaka Beacon
+				Tooltip:
+					'''
+					Summons Adam Smasher; reusable
+					Cannot be used while any boss is active
+					Crafted with 5 Shadowspec Bars, 25 Mysterious Circuitry and 25 Dubious Plating at Draedon's Forge
+					'''
+			}
+
+			AnnihilationProtocol: {
+				DisplayName: Annihilation Protocol
+				Tooltip:
+					'''
+					Fires pairs of guided rockets with wide explosions
+					Hold right click to charge a heavy plasma shot for 1–2 seconds
+					Charging consumes additional mana every 1/3 second, reduced by your equipment
+					The shot leaves a plasma field; 5-second cooldown after firing
+					An Arasaka machine built for one purpose
+					'''
+			}
+
+			ArasakaMantisBlades: {
+				DisplayName: Arasaka Mantis Blades
+				Tooltip:
+					'''
+					Alternating wide slashes; the third attack crosses both blades for 50% more damage
+					Hold left click: over 2 seconds, slash damage grows by 50% and reach from 175 to 315
+					Releasing left click, using right click or switching weapons resets the ramp
+					Right click throws both blades toward the cursor, then returns them
+					Switching weapons or pausing between attacks resets the combo
+					'''
+			}
+
+			SmasherBag: {
+				DisplayName: Treasure Bag (Adam Smasher)
+				Tooltip:
+					'''
+					Right click to open
+					Contains exactly one weapon: Annihilation Protocol or Arasaka Mantis Blades, each with a 50% chance
+					Each bag makes an independent choice
+					'''
+			}
+		}
+
+		NPCs.AdamSmasherBoss.DisplayName: Adam Smasher
+		BossChecklist.SpawnInfo: Use the reusable Arasaka Beacon while no other boss is active. Craft it at Draedon's Forge with 5 Shadowspec Bars, 25 Mysterious Circuitry and 25 Dubious Plating.
+
+		Projectiles: {
+			BossBullet.DisplayName: Smasher Bullet
+			BossRocket.DisplayName: Smasher Rocket
+			PlasmaCharge.DisplayName: Heavy Plasma Shot
+			PlasmaField.DisplayName: Plasma Field
+			RocketExplosion.DisplayName: Rocket Explosion
+			SmartRocket.DisplayName: Guided Rocket
+			MantisSlash.DisplayName: Mantis Slash
+			MantisThrow.DisplayName: Returning Mantis Blade
+			BossBlast.DisplayName: Boss Blast
+		}
+	}
+}

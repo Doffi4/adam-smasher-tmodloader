@@ -1,0 +1,6 @@
+displayName = Final combat laboratory
+author = doffi4
+version = 0.1.0
+modReferences = AdamSmasher
+side = Server
+buildIgnore = bin/*, obj/*, *.csproj

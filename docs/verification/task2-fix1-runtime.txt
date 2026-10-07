@@ -1,0 +1,11 @@
+DATA: type=3252, mode=0, defDamage=600, raw=350, sourceBeforeDefense=700
+DATA: type=3252, mode=1, defDamage=1200, raw=350, sourceBeforeDefense=1400
+DATA: type=3252, mode=2, defDamage=1800, raw=350, sourceBeforeDefense=2100
+PASS: I1 bullet Normal/Expert/Master CombinedHooks
+DATA: type=3253, mode=0, defDamage=600, raw=450, sourceBeforeDefense=900
+DATA: type=3253, mode=1, defDamage=1200, raw=450, sourceBeforeDefense=1800
+DATA: type=3253, mode=2, defDamage=1800, raw=450, sourceBeforeDefense=2700
+PASS: I1 rocket Normal/Expert/Master CombinedHooks
+PASS: I2 fixed strike server/client trajectory target moves
+PASS: I2 fixed strike server/client trajectory target dies
+PASS: Minor client dash damping once until authoritative Recovery

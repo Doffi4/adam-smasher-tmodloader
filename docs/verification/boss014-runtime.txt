@@ -1,0 +1,34 @@
+PASS: Off-screen boss remains eligible to draw target warnings
+PASS: Off-screen delivery rocket remains eligible to draw visible strike marker
+PASS: Normal defaults and phase transition preserve injured HP/defense
+PASS: phase1 reposition36/24 gives every attack warning
+PASS: phase1 GunWarning tracks early and locks final24 ticks
+PASS: phase1 MissileWarning tracks early and locks final24 ticks
+PASS: phase1 DashWarning tracks early and locks final24 ticks
+PASS: phase1 each gun burst has fresh warning and three 12tick volleys
+PASS: phase1 fixed missile strike geometry and direct follow-up
+PASS: phase1 dash reaches through target with synchronized duration
+DATA: phase1 GunWarning eligible intersections stationary=6,7px/t escape=0
+PASS: phase1 GunWarning stationary pressure and 7px/t escape
+DATA: phase1 MissileWarning eligible intersections stationary=6,7px/t escape=0
+PASS: phase1 MissileWarning stationary pressure and 7px/t escape
+DATA: phase1 DashWarning eligible intersections stationary=3,7px/t escape=0
+PASS: phase1 DashWarning stationary pressure and 7px/t escape
+PASS: phase2 reposition36/24 gives every attack warning
+PASS: phase2 GunWarning tracks early and locks final24 ticks
+PASS: phase2 MissileWarning tracks early and locks final24 ticks
+PASS: phase2 DashWarning tracks early and locks final24 ticks
+PASS: phase2 each gun burst has fresh warning and three 12tick volleys
+PASS: phase2 fixed missile strike geometry and direct follow-up
+PASS: phase2 dash reaches through target with synchronized duration
+DATA: phase2 GunWarning eligible intersections stationary=6,7px/t escape=0
+PASS: phase2 GunWarning stationary pressure and 7px/t escape
+DATA: phase2 MissileWarning eligible intersections stationary=6,7px/t escape=0
+PASS: phase2 MissileWarning stationary pressure and 7px/t escape
+DATA: phase2 DashWarning eligible intersections stationary=2,7px/t escape=0
+PASS: phase2 DashWarning stationary pressure and 7px/t escape
+PASS: Real rocket Update creates damaging blast on impact only
+PASS: Blast circle radius110 and exactly8 damaging updates
+PASS: Client cannot aim, change phase, spawn or start dash
+PASS: Shared cap20 includes blast; phase/death/retire cleanup creates no blasts
+SCOPE: Eligible collision intersections use real Projectile.Update/Colliding and NPC contact gates. No invulnerability fixture; no full-set HP/DPS assertion.

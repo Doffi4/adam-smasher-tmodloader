@@ -1,0 +1,5 @@
+LOADED: ModLoader@2026.8.3.0, CalamityModMusic@2.1, CalamityMod@2.2.2, AdamSmasher@0.1.5, Task6Harness@0.1.0
+PASS: actual reusable summon + duplicate gate; boss life=18000000 defense=110; explicit headless resource load
+PASS: boss full NPC updates360; owned hostile projectiles=20
+PASS: retire/projectile cleanup, other boss gate, exactly one beacon recipe, final weapons/bag defaults
+NOTE: NPC Update smoke only; no Player combat tick or DPS/network/GPU claim

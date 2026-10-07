@@ -1,0 +1,36 @@
+PASS: Held melee ramp is time based, capped, and keeps three-hit cadence
+PASS: Every swing snapshots its damage and visible collision geometry
+PASS: Held ramp resets on release
+PASS: Held ramp resets on right control
+PASS: Held ramp resets on right mode
+PASS: Held ramp resets on swap
+PASS: Held ramp resets on copy
+PASS: Held ramp resets on death
+PASS: Held ramp resets on CC
+PASS: Held ramp resets on no items
+PASS: Held ramp resets on UI
+PASS: Held ramp resets on focus
+PASS: Held ramp resets on blocked mouse
+PASS: Held ramp resets on blocked input
+PASS: Held ramp resets on sign
+PASS: Held ramp resets on chest
+PASS: Throw resets held ramp and peak slashes retain the eight-tick root gate
+PASS: Late remote snapshot restores ramp geometry and remaining lifetime independently
+PASS: Genuine melee defaults and no contact damage
+PASS: Alternating combo crosses on third, loops, reset by idle
+PASS: Combo resets on copy switch and death
+PASS: One owner slash; remote spawn denied
+PASS: Actual attack-speed animation controls slash duration
+PASS: Arc collision rejects invisible square and rear
+PASS: Very slow melee animation is not cut short by default lifetime
+PASS: Crossing and worm group hit only once in one slash
+PASS: Twin throw shares group interval with slash and copies
+PASS: Repeat throw and remote cannot exceed pair
+PASS: Synced target, spin, finite boomerang without remote MouseWorld
+PASS: Projectile snapshots restore remote swing and throw without local cursor
+PASS: Engine combat accepts one twin hit for overlapping shared HP segments
+PASS: Cancel active attacks: swap
+PASS: Cancel active attacks: copy
+PASS: Cancel active attacks: death
+PASS: Cancel active attacks: CC
+PASS: Movement, dash and immunity untouched

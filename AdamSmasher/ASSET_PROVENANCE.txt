@@ -1,0 +1,6 @@
+Hostile projectile art for 0.1.4 was generated with the built-in image_gen.imagegen tool on 2026-10-04, then formatted with Universal Modder sprite fit.
+BossRocket.png: transparent RGBA 64x32, right-facing armored cyberpunk missile with dark steel outline, panels/fins, an orange/gold core and a short contained flame.
+BossBullet.png: transparent RGBA 40x12, right-facing compact plasma bolt, thick dark outline, amber/orange shell and bright ivory/gold core; short tapered tail.
+Prompt constraints: single isolated horizontal projectile, Terraria-like pixel clusters, readable at final size, no weapon/launcher/text/frame/watermark, real transparency.
+Formatting only: alpha threshold 128, then a single nearest-neighbour fit with hard alpha. This source archive contains the final game-ready PNGs; large generated working originals are not required to build the mod.
+No game or third-party mod graphics were extracted for these assets. General rights and attribution are in ATTRIBUTION.txt and LICENSE.txt.

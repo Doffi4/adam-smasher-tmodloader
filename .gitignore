@@ -1,0 +1,17 @@
+lab/
+dist/
+**/bin/
+**/obj/
+.env
+.env.*
+*.user
+*.suo
+*.wld
+*.twld
+*.plr
+*.tplr
+*.bak
+*.log
+.superpowers/
+.codex/
+.agents/

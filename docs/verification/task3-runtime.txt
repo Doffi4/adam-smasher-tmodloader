@@ -1,0 +1,17 @@
+PASS: VFX line samples one pixel of the 1x1000 MagicPixel texture
+PASS: Magic defaults and real mana consumption
+PASS: Real item-use mana path charges every salvo with and without gear reduction
+PASS: Charged shot respects reduced initial and periodic mana budget
+PASS: Two distributed owner missiles; remote cannot spawn
+PASS: Single target concentrates; invalid target safely retargets; lifetime finite
+PASS: Explosion excludes primary worm group and hits collateral once
+PASS: Charge cancel: swap
+PASS: Charge cancel: same-type copy
+PASS: Charge cancel: death
+PASS: Charge cancel: CC
+PASS: Charge cancel: no mana
+PASS: Charge cancel: undercharge
+PASS: Charge cancel: UI
+PASS: Charge release, shared cooldown, remote no-spawn, one finite field
+PASS: Maximum charge cannot hold forever; canceled OnKill never creates field
+PASS: Remote charge-to-flight state survives holdout lifetime

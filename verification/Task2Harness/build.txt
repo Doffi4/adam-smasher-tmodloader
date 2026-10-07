@@ -1,0 +1,6 @@
+displayName = Adam Smasher boss laboratory tests
+author = doffi4
+version = 0.1.0
+modReferences = AdamSmasher
+side = Server
+buildIgnore = bin/*, obj/*, *.csproj

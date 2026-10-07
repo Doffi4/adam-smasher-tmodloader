@@ -1,0 +1,14 @@
+PASS: Loaded bag defaults and single luck-independent rule
+COUNTS: 1000 bags magic=495, melee=505, exactlyOne=1000, sameAdjacent=503, seed=5052026, luck=+1/-1
+PASS: Actual engine resolver opens 1000 bags: exactly one weapon each
+REGISTERED NPC RULES: 9 total (Calamity adds global rules); own guaranteed choice inspected separately
+BRANCH: Normal directWeapons=1, bags=0
+BRANCH: Expert directWeapons=0, bags=1
+BRANCH: Master directWeapons=0, bags=1
+PASS: Normal/Expert/Master actual registered NPC loot
+RECIPE: ShadowspecBar5 + MysteriousCircuitry25 + DubiousPlating25; DraedonsForge tile=1088; conditions=0
+PASS: Loaded exact Calamity recipe, reusable beacon
+BOSSCHECKLIST: 2.2.4 entry=AdamSmasher AdamSmasher; progression=25, maxCalamity=23, npc=994, beacon=8280, bag=8282
+PASS: Installed BossChecklist actual registered entry
+PASS: RU/EN localization names, mechanics and recipe
+RESULT: failures=0; actual UI/client/network transport unverified

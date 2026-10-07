@@ -1,0 +1,6 @@
+displayName = Task5 isolated checks
+author = local
+version = 0.1.0
+modReferences = AdamSmasher
+side = Server
+buildIgnore = bin/*, obj/*, *.csproj
